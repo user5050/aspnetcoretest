@@ -1,0 +1,12 @@
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=HelloWebApp
+--content-root=E:\projects\dotcore\test\HelloWebApp\HelloWebApp
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\About.cshtml
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\Contact.cshtml
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\Error.cshtml
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\Index.cshtml
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\_Layout.cshtml
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\_ValidationScriptsPartial.cshtml
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\_ViewImports.cshtml
+--file=E:\projects\dotcore\test\HelloWebApp\HelloWebApp\Pages\_ViewStart.cshtml

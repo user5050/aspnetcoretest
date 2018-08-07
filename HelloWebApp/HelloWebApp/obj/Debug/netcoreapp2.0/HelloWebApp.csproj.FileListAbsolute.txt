@@ -1,0 +1,11 @@
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\bin\Debug\netcoreapp2.0\HelloWebApp.deps.json
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\bin\Debug\netcoreapp2.0\HelloWebApp.runtimeconfig.json
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\bin\Debug\netcoreapp2.0\HelloWebApp.runtimeconfig.dev.json
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\bin\Debug\netcoreapp2.0\HelloWebApp.dll
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\bin\Debug\netcoreapp2.0\HelloWebApp.pdb
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\obj\Debug\netcoreapp2.0\HelloWebApp.csprojResolveAssemblyReference.cache
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\obj\Debug\netcoreapp2.0\HelloWebApp.csproj.CoreCompileInputs.cache
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\obj\Debug\netcoreapp2.0\HelloWebApp.AssemblyInfoInputs.cache
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\obj\Debug\netcoreapp2.0\HelloWebApp.AssemblyInfo.cs
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\obj\Debug\netcoreapp2.0\HelloWebApp.dll
+E:\projects\dotcore\test\HelloWebApp\HelloWebApp\obj\Debug\netcoreapp2.0\HelloWebApp.pdb
