@@ -1,20 +1,15 @@
-FROM microsoft/aspnetcore:2.0 AS base
-WORKDIR /app
-EXPOSE 80
+#基于 `microsoft/dotnetcore` 来构建我们的镜像
+FROM microsoft/aspnetcore
 
-FROM microsoft/aspnetcore-build:2.0 AS build
-WORKDIR /src
-COPY HelloWebApp.sln ./
-COPY HelloWebApp/HelloWebApp.csproj HelloWebApp/
-RUN dotnet restore -nowarn:msb3202,nu1503
-COPY . .
-WORKDIR /src/HelloWebApp
-RUN dotnet build -c Release -o /app
+#拷贝项目publish文件夹中的所有文件到 docker容器中的publish文件夹中  
+COPY  .  /publish
 
-FROM build AS publish
-RUN dotnet publish -c Release -o /app
+#设置工作目录为 `/publish` 文件夹，即容器启动默认的文件夹
+WORKDIR  /publish
 
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app .
-ENTRYPOINT ["dotnet", "HelloWebApp.dll"]
+#设置Docker容器对外暴露6000端口(aspnetcore镜像容器运行时，暴露的端口为80,非此处配置)
+EXPOSE 6000
+
+#使用`dotnet HelloWebApp.dll`来运行应用程序
+
+CMD ["dotnet", "HelloWebApp.dll"]
