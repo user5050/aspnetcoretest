@@ -10,7 +10,7 @@ namespace HelloWebApp
         public void Test()
         {
 #if DEBUG
-            throw new Exception("no dubeg"); 
+            Assert.IsTrue(false,"条件不符合");
 #else
             
 #endif
