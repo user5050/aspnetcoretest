@@ -15,5 +15,25 @@ namespace HelloWebApp
             
 #endif
         }
+
+        [TestMethod]
+        public void Test01()
+        {
+#if DEBUG
+            Assert.IsTrue(true, "条件不符合");
+#else
+            
+#endif
+        }
+
+        [TestMethod]
+        public void Test02()
+        {
+#if DEBUG
+            Assert.IsTrue(true, "条件不符合");
+#else
+            
+#endif
+        }
     }
 }
